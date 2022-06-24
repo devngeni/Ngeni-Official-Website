@@ -1,0 +1,5 @@
+/build
+/ngeni.zip
+/node_modules
+/__MACOSX
+yarn.lock

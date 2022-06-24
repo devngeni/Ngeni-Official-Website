@@ -1,0 +1,283 @@
+/* @import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 200; */
+}
+.css-btluk1-TimelineCardTitle {
+  padding: 15px;
+}
+.css-1ey6067-TitleWrapper {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+}
+
+.css-1ey6067-TitleWrapper.active{
+  color: #EC5646 !important;
+}
+body {
+  background-color: #000;
+}
+
+.spanning {
+  color: #EC5646;
+}
+
+.FaRegKissWinkHeart {
+  color: red;
+}
+
+.st0 :hover {
+  color: white;
+}
+.title-wrapper {
+  border-radius: 0px;
+}
+
+.restest {
+  color: #EC5646;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+a {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #d21f3c;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+}
+
+.name_label {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.big {
+  max-width: 100%;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.bigger {
+  color: white;
+}
+
+.home {
+  color: #d21f3c;
+}
+
+.span {
+  color: #EC5646;
+}
+
+.animate {
+  transition: all ease-in-out 0.5s;
+}
+
+/* .searchbtn {
+  background-color: #EC5646;
+  border: none;
+  padding: 0.75rem 4rem;
+  border-radius: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.search {
+  background-color: #000;
+  border: 1px solid #fff;
+  padding: 0.75rem 4rem;
+  border-radius: 2rem;
+  color: white;
+  width: 100%;
+  margin-bottom: 1rem;
+} */
+
+.obato {
+  background-color: #EC5646;
+  border-radius: 2rem;
+  padding: 0.9rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  cursor: pointer;
+  display: grid;
+  justify-self: center;
+  font-weight: 200px;
+}
+
+@media screen and (max-width: 960px) {
+  .obato {
+    background-color: #EC5646;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center !important;
+    font-weight: 600 !important;
+  }
+}
+
+.jdoiBC {
+  align-content: center !important;
+}
+
+.Image {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
+/* @media (max-width: 640px) {
+  .Description {
+    display: grid; } } */
+
+/* md */
+/* @media (min-width: 641px) and (max-width: 768px) {
+  .Description {
+    display: grid; } } */
+.MuiBox-root css- {
+  background-color: black;
+}
+a {
+    color: #fff;
+    justify-content: center;
+}
+
+a:hover {
+    color: #fff;
+}
+.Container {
+  background-color: #1e1818 !important;
+  text-align: left;
+  display: flex;
+  flex-direction: column-reverse !important;
+  margin: 6px;
+  padding: 10px;
+  border-radius: 9px;
+  border-color: #1e1818 !important;
+  transition: 0.3s all ease;
+  height: 87% !important;
+}
+.Title {
+  color: white !important;
+  font-family: "poppins";
+}
+
+.Description {
+  color: rgb(211, 148, 148) !important;
+  font-family: monospace;
+  font-weight: bold !important;
+}
+
+/* image header */
+
+image.center {
+  display: block;
+  align-self: center !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input {
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+}
+
+.control-dots {
+  display: inline-flex !important;
+}
+
+.carousel.carousel-slider {
+  @media screen and (min-width: 768px) {
+    width: 108% !important;
+  }
+}
+
+.slide {
+  max-width: 91% !important;
+  min-width: 100% !important;
+  display: inline-flex;
+}
+
+.slide.selected.previous {
+  min-width: 100% !important;
+  @media screen and (min-width: 425px) {
+    justify-content: center !important;
+  }
+}
+
+.slide.previous {
+  min-width: 100% !important;
+  @media screen and (min-width: 768px) {
+    justify-content: center !important;
+  }
+}
+
+.slider-wrapper.axis-horizontal {
+  display: flow-root !important;
+}
+
+.slider.animated {
+  display: inline-flex !important;
+  width: 330px;
+}
+
+/* .carousel-status {
+  display: none !important;
+  @media screen and (min-width: 425px) {
+    display: grid !important;
+  }
+} */
+.control-arrow.control-next {
+  display: none !important;
+}
+
+.control-dots {
+  display: none !important;
+}
+
+.control-arrow.control-prev.control-disabled {
+  display: none !important;
+}
+
+.control-arrow.control-prev {
+  display: none  !important;
+}
+/* .slide.selected.previous {
+  display: none !important;
+} */
