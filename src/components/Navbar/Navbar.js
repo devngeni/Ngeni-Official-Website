@@ -6,7 +6,7 @@ import {
   MobileIcon,
 } from "./NavbarElements";
 import icon from "../../assets/images/icon.svg";
-import nGenilLogoa from "../../assets/images/NGENInewlogo.svg"
+import nGenilLogoa from "../../assets/images/ngeninewLogo.svg"
 
 function Navbar({ toggle }) {
   return (

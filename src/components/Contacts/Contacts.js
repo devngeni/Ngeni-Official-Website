@@ -58,7 +58,7 @@ function Contacts() {
       },
       "rJmaRWYPK8-Blcqi9"
     );
-    e.target.resetForm();
+    e.target.reset();
   };
   return (
     <>
