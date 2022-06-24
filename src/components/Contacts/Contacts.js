@@ -15,6 +15,7 @@ import {
   ContactsClass,
   ContactProfile,
   ContactsTextArea,
+  ContactsBox
 } from "./ContactsElements";
 import contacts from "../../assets/images/contacts.svg";
 import { toast } from "react-hot-toast";
@@ -192,11 +193,11 @@ function Contacts() {
                     HIRE US&nbsp;&nbsp;↗️
                   </button>
                 </ContactsImage>
-                <ContactsImage>
+                <ContactsBox>
                   <ExternalLink href="https://calendly.com/ngenidevs/15min">
                     BOOK AN APPOINTMENT
                   </ExternalLink>
-                </ContactsImage>
+                </ContactsBox>
               </ContactsRows>
             </form>
           </ContactsBody>

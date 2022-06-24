@@ -108,6 +108,34 @@ export const ContactsImage = styled.div`
     }
   }
 `;
+export const ContactsBox = styled.div`
+    border: 2px solid #ec5646;
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    color: #fff;
+    margin: 2rem;
+    width: 330px;
+    height: 3em;
+    background: none;
+    &:hover {
+      background-color: #ec5646;
+      color: #fff;
+    }
+  }
+  @media screen and (min-width: 768px) {
+      height: 3em;
+      text-align: center;
+      justify-content: center;
+      display: grid;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+  }
+`;
 export const ContactsClass = styled.div`
   width: 100%;
   display: grid;
