@@ -192,7 +192,7 @@ function Team() {
                     />
                   </Fade>
                 )}
-                <Emoji>🤖</Emoji>
+                <Emoji>💣</Emoji>
 
                 <Teambtn>DENNIS</Teambtn>
                 <TeamDes>dAPPsKing</TeamDes>
