@@ -56,6 +56,16 @@ function App() {
           },
         }}
       />
+      <div className="whatsapp-icon">
+        <a
+          href="https://wa.me/254792284449"
+          className="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
+      </div>
     </Router>
   );
 }

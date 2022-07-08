@@ -6,7 +6,7 @@ import Betty from "../../assets/images/carousel/Betty.JPG";
 import Dennoh from "../../assets/images/carousel/Dennoh.jpg";
 import George from "../../assets/images/carousel/george.JPG";
 import Omambia from "../../assets/images/carousel/omambia.jpg";
-import vincent from "../../assets/images/carousel/vincent.JPG";
+import vincent from "../../assets/images/carousel/vincent.jpg";
 import Enock from "../../assets/images/carousel/Enock.jpg";
 import Dennis from "../../assets/images/carousel/Dennis.JPG";
 import Henry from "../../assets/images/carousel/Henry.JPG";
