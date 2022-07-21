@@ -1,5 +1,6 @@
 # NGENI-Final-V
-This is the final version of our official website, created using react, from the  ❤️ of East Africa
+- EastAfrika's largest Web3 Developer Studio🔥Team50+|1045 coding hrs P/W|34dApps✨
+- This is the final version of our official website, created using react, from the  ❤️ of East Africa
 
 ## Getting Started 
 
