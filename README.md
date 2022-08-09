@@ -5,7 +5,7 @@
 # NGENI
 ```
 - EastAfrika's largest Web3 Developer Studio🔥
-- with a Team of 50+ developers who have spent 1045+ coding hrs, Programming and developed over 34dApps✨
+- with a Team of 50+ developers who have spent 1045+ coding hrs, Programming and developed over 38+dApps✨
 - This is the official Repository of our official website
 ```
 ### WHAT WE DO🔥🤷‍♀️
@@ -71,7 +71,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 
-- Twitter: [@DefiB0ts](https://twitter.com/DefiB0ts)
+- Twitter: [@NGENI Developers](https://twitter.com/ngenidevs)
 - Linkedin: [@NGENI Limited IO](https://www.linkedin.com/in/ngeni-io-limited-bb2a9421b/)
 
 
