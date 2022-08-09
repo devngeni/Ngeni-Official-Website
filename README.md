@@ -1,37 +1,68 @@
-# NGENI-Final-V
-- EastAfrika's largest Web3 Developer Studio🔥Team50+|1045 coding hrs P/W|34dApps✨
-- This is the final version of our official website, created using react, from the  ❤️ of East Africa
+<p align="center">
+  <img width="460" height="200" src="https://user-images.githubusercontent.com/65861136/183777573-1ffb5766-4bf9-4558-9678-1cece6fff1e7.svg">
+</p>
 
+# NGENI
+```
+- EastAfrika's largest Web3 Developer Studio🔥
+- with a Team of 50+ developers who have spent 1045+ coding hrs, Programming and developed over 34dApps✨
+- This is the official Repository of our official website
+```
+### WHAT WE DO🔥🤷‍♀️
+
+```
+- Next generation 🙌FULLSTACK #web3  
+- #developers & TECH strategists building ComPlex and cross-platform Applications, Bots & dApps
+- for Blockchain, Fintech, Cryptocurrencies & Markets Trading. 🚀👩‍💻
+- We develop across the Entire ECOSYSTEM & 💗  COMPLEXITY! 
+- Mobile Payments, API & DeFi bridges, Digital wallets...? We got this.
+- It's in OUR BLOOD 😍 We’re GENERATION M-Pesa👨 moving money Digitally since 2007🔥
+```
+### FOCUS AREAS🤑
+
+```
+- Building prominent applications, #dApps , automation tools, plugins, bridges/gateways, wallets & #bots 
+- for the world's hottest Blockchain Protocols, Institutional & Professional Markets Traders,
+- #fintech  platforms, and Cryptocurrency projects
+```
+
+## created using:
+
+```
+- react,
+- styled-components
+- css
+```
+ from the  ❤️ of East Africa
 ## Getting Started 
 
-clone the project and run `yarn install` .
+clone the project and run 
+
+```
+yarn install
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+Runs the app in the development mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+```
+yarn start
+```
+to view it in the browser.
+Open 
+```
+http://localhost:3000
+```
+to host the project for production
+```
+yarn build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Author
 
