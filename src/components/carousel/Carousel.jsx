@@ -1,6 +1,5 @@
 import React from "react";
 import Styled from "./CarouselElement";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import Jay from "../../assets/images/carousel/Jay.jpg";
 import Betty from "../../assets/images/carousel/Betty.JPG";
 import Dennoh from "../../assets/images/carousel/Dennoh.jpg";
@@ -17,13 +16,11 @@ import Alex from "../../assets/images/carousel/Alex.jpg";
 import pius from "../../assets/images/carousel/pius.JPG";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import "swiper/modules/effect-fade/effect-fade";
-import "swiper/modules/navigation/navigation";
-import "swiper/modules/pagination/pagination";
 import "./styles.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function CarouselTeam() {
   return (

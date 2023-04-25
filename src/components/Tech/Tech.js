@@ -11,7 +11,7 @@ import {
   Techwrapper,
 } from "./TechElements";
 
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import { ExternalLink } from "react-external-link";
 
 //logos
@@ -40,7 +40,7 @@ function Tech() {
     <>
       <TechContainer>
         <TechRow>
-          <Fade up>
+          <Fade direction="up">
             <TechHeader>
               <TechTitle>
                 oUR <span>tECH</span> sTACK
@@ -56,7 +56,7 @@ function Tech() {
           </Fade>
 
           <TechIcons>
-            <Fade up>
+            <Fade direction="up">
               <Techwrapper>
                 <TechImage>
                   <ExternalLink href="https://www.javascript.com/">

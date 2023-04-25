@@ -6,14 +6,14 @@ import {
   TermsRow,
   Termsp,
 } from "./TermsElements";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function Terms() {
   return (
     <>
       <TermsContainer>
         <TermsContent>
-          <Fade up>
+          <Fade direction="up">
             <TermsHeader>Privacy policy</TermsHeader>
             <Termsp>
               Your privacy is important to us. This privacy statement explains
@@ -55,7 +55,7 @@ function Terms() {
               Version: September 2021
             </Termsp>
           </Fade>
-          <Fade up>
+          <Fade direction="up">
             <TermsHeader>Terms Of Use</TermsHeader>
             <Termsp>
               <span className="restest">Effective day 20th September 2021</span>

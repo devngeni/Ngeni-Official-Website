@@ -18,8 +18,7 @@ import {
   CarouselDiv,
   CarouselBody,
 } from "./IntroSection";
-import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import { Fade, Zoom } from "react-awesome-reveal";
 import CarouselTeam from "../carousel/Carousel";
 import { ExternalLink } from "react-external-link";
 /* <img src={engineer} alt="engineer" width="200px" /> */
@@ -31,7 +30,7 @@ function Intro() {
         <img src={engineer} alt="engineer" />
       </Picha>
       <IntroRow>
-        <Fade up>
+        <Fade direction="up">
           <IntroContent>
             <IntroHeading>
               <IntroImg></IntroImg>
@@ -47,7 +46,7 @@ function Intro() {
             </IntroBody>
           </IntroContent>
           <IntroContentTwo>
-            <Zoom up>
+            <Zoom direction="up">
               <TeaColOne>
                 <Teaheader>
                   <Emoji symbol="🚶🏿‍♂️" label="face" role="img" />
@@ -58,7 +57,7 @@ function Intro() {
             </Zoom>
           </IntroContentTwo>
           <IntroContentThree>
-            <Zoom up>
+            <Zoom direction="up">
               <TeaColTwo>
                 <Teaheader>
                   <Emoji symbol="👩🏾" label="face" role="img" />

@@ -17,7 +17,7 @@ import {
 } from "./TeamElements";
 // import data from "./data.json";
 import Slide from "react-reveal/Slide"; // Importing Zoom effect
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import team from "../../assets/images/teams.svg";
 import yeng from "../../assets/images/femals_dev.jpg";
 import jamaa from "../../assets/images/male_dev.jpg";
@@ -57,7 +57,6 @@ function Team() {
   const [isViewTenD, setISViewTenD] = useState(false);
   const [isViewEllevenD, setISViewEllevenD] = useState(false);
 
-
   const [isView1, setIsView1] = useState(false);
   const [isView2, setIsView2] = useState(false);
   const [isView3, setIsView3] = useState(false);
@@ -89,13 +88,13 @@ function Team() {
           <HeaderOne>ENGINEERS</HeaderOne>
           <TeamRows>
             {/* A */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewSixteen(true)}
                 onMouseLeave={() => setIsViewSixteen(false)}
               >
                 {isViewSixteen && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="team"
@@ -111,13 +110,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* B */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView(true)}
                 onMouseLeave={() => setIsView(false)}
               >
                 {isView && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="team"
@@ -133,13 +132,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* C */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView4(true)}
                 onMouseLeave={() => setIsView4(false)}
               >
                 {isView4 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -155,13 +154,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTwo(true)}
                 onMouseLeave={() => setIsViewTwo(false)}
               >
                 {isViewTwo && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -177,13 +176,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* D */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewThree(true)}
                 onMouseLeave={() => setIsViewThree(false)}
               >
                 {isViewThree && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -199,13 +198,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFour(true)}
                 onMouseLeave={() => setIsViewFour(false)}
               >
                 {isViewFour && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -221,13 +220,13 @@ function Team() {
             </Fade>
             {/* E */}
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFive(true)}
                 onMouseLeave={() => setIsViewFive(false)}
               >
                 {isViewFive && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -242,13 +241,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* G */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewSix(true)}
                 onMouseLeave={() => setIsViewSix(false)}
               >
                 {isViewSix && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -263,13 +262,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* H */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewSeven(true)}
                 onMouseLeave={() => setIsViewSeven(false)}
               >
                 {isViewSeven && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -284,13 +283,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* J */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewEight(true)}
                 onMouseLeave={() => setIsViewEight(false)}
               >
                 {isViewEight && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -304,14 +303,14 @@ function Team() {
                 <TeamDes>Insanity </TeamDes>
               </TeamDev>
             </Fade>
-            
-            <Fade up>
+
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewNine(true)}
                 onMouseLeave={() => setIsViewNine(false)}
               >
                 {isViewNine && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -325,15 +324,15 @@ function Team() {
                 <TeamDes>EthersJay</TeamDes>
               </TeamDev>
             </Fade>
-            
+
             {/* L */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView5(true)}
                 onMouseLeave={() => setIsView5(false)}
               >
                 {isView5 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -348,13 +347,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* N */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewThirteen(true)}
                 onMouseLeave={() => setIsViewThirteen(false)}
               >
                 {isViewThirteen && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -369,13 +368,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* O */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTen(true)}
                 onMouseLeave={() => setIsViewTen(false)}
               >
                 {isViewTen && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -390,13 +389,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* P */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFourteen(true)}
                 onMouseLeave={() => setIsViewFourteen(false)}
               >
                 {isViewFourteen && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -411,13 +410,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* R */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewEleven(true)}
                 onMouseLeave={() => setIsViewEleven(false)}
               >
                 {isViewEleven && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -432,13 +431,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* T */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFifteen(true)}
                 onMouseLeave={() => setIsViewFifteen(false)}
               >
                 {isViewFifteen && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -453,13 +452,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView6(true)}
                 onMouseLeave={() => setIsView6(false)}
               >
                 {isView6 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -474,13 +473,13 @@ function Team() {
               </TeamDev>
             </Fade>
             {/* V */}
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTwelve(true)}
                 onMouseLeave={() => setIsViewTwelve(false)}
               >
                 {isViewTwelve && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -498,13 +497,13 @@ function Team() {
 
           <HeaderOne>Aspiring Engineers, Helping Engineers Engineer</HeaderOne>
           <TeamRows>
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewB(true)}
                 onMouseLeave={() => setIsViewB(false)}
               >
                 {isViewB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="team"
@@ -520,13 +519,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTwoB(true)}
                 onMouseLeave={() => setIsViewTwoB(false)}
               >
                 {isViewThreeB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -541,13 +540,13 @@ function Team() {
                 <TeamDes>sh🔥tcoin Snipper</TeamDes>
               </TeamDev>
             </Fade>
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewOneB(true)}
                 onMouseLeave={() => setIsViewOneB(false)}
               >
                 {isViewTwoB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -563,13 +562,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewThreeB(true)}
                 onMouseLeave={() => setIsViewThreeB(false)}
               >
                 {isViewOneB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -584,13 +583,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFourB(true)}
                 onMouseLeave={() => setIsViewFourB(false)}
               >
                 {isViewFourB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -605,13 +604,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewFiveB(true)}
                 onMouseLeave={() => setIsViewFiveB(false)}
               >
                 {isViewFiveB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -626,13 +625,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setISViewEllevenD(true)}
                 onMouseLeave={() => setISViewEllevenD(false)}
               >
                 {isViewEllevenD && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -647,13 +646,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewSixB(true)}
                 onMouseLeave={() => setIsViewSixB(false)}
               >
                 {isViewSixB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -668,13 +667,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewSevenB(true)}
                 onMouseLeave={() => setIsViewSevenB(false)}
               >
                 {isViewSevenB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -689,13 +688,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewEightB(true)}
                 onMouseLeave={() => setIsViewEightB(false)}
               >
                 {isViewEightB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="yeng"
@@ -710,13 +709,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewNineB(true)}
                 onMouseLeave={() => setIsViewNineB(false)}
               >
                 {isViewNineB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -731,13 +730,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTenB(true)}
                 onMouseLeave={() => setIsViewTenB(false)}
               >
                 {isViewTenB && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -752,13 +751,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsViewTenC(true)}
                 onMouseLeave={() => setIsViewTenC(false)}
               >
                 {isViewTenC && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -776,13 +775,13 @@ function Team() {
 
           <HeaderOne>NGENI Advisers</HeaderOne>
           <TeamAdviser>
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setISViewTenD(true)}
                 onMouseLeave={() => setISViewTenD(false)}
               >
                 {isViewTenD && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"
@@ -797,13 +796,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView1(true)}
                 onMouseLeave={() => setIsView1(false)}
               >
                 {isView1 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -818,13 +817,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView2(true)}
                 onMouseLeave={() => setIsView2(false)}
               >
                 {isView2 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={yeng}
                       alt="jamaa"
@@ -839,13 +838,13 @@ function Team() {
               </TeamDev>
             </Fade>
 
-            <Fade up>
+            <Fade direction="up">
               <TeamDev
                 onMouseEnter={() => setIsView3(true)}
                 onMouseLeave={() => setIsView3(false)}
               >
                 {isView3 && (
-                  <Fade up>
+                  <Fade direction="up">
                     <img
                       src={jamaa}
                       alt="jamaa"

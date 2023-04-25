@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import {
   WerockContainer,
   WerockContents,
@@ -12,7 +12,7 @@ import {
   CryptoColumn,
   CryptoBoxEx,
   Eyes,
-  CryptoColumnLeft
+  CryptoColumnLeft,
 } from "./WhywerockElements";
 import avalance from "../../assets/images/techstack/avalance.svg";
 import cardano from "../../assets/images/techstack/cardano.svg";
@@ -26,13 +26,13 @@ import stellar from "../../assets/images/techstack/stellar.svg";
 function Whywerock() {
   return (
     <WerockContainer>
-      <Fade up>
+      <Fade direction="up">
         <WerockContents>
           <CryptoColumn>
             <WerockHeader>DEVELOPING ON</WerockHeader>
             <CryptoBox>
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={cardano} alt="engineer" width="100px" />
                     <CryptoCounter>Cardano</CryptoCounter>
@@ -41,7 +41,7 @@ function Whywerock() {
               </CryptoBoxone>
 
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={avalance} alt="engineer" width="100px" />
                     <CryptoCounter>Avalanche</CryptoCounter>
@@ -50,7 +50,7 @@ function Whywerock() {
               </CryptoBoxone>
 
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={filecoin} alt="engineer" width="100px" />
                   </CryptoImgtwo>
@@ -59,7 +59,7 @@ function Whywerock() {
               </CryptoBoxone>
 
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={polygon} alt="engineer" width="100px" />
                   </CryptoImgtwo>
@@ -68,7 +68,7 @@ function Whywerock() {
               </CryptoBoxone>
 
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={waxp} alt="engineer" width="100px" />
                   </CryptoImgtwo>
@@ -77,7 +77,7 @@ function Whywerock() {
               </CryptoBoxone>
 
               <CryptoBoxone>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={stellar} alt="engineer" width="100px" />
                   </CryptoImgtwo>
@@ -91,7 +91,7 @@ function Whywerock() {
             <WerockHeader>RESEARCHING & TESTING</WerockHeader>
             <CryptoBoxEx>
               <CryptoBoxtwo>
-                <Fade up>
+                <Fade direction="up">
                   <CryptoImgtwo>
                     <img src={internetProtocol} alt="engineer" width="100px" />
                   </CryptoImgtwo>

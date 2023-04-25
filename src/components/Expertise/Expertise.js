@@ -19,7 +19,7 @@ import {
   ExpertTitle,
   ExpertBodyNew,
 } from "./ExpertiseElements";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import trading from "../../assets/images/trading/trading.b8f25ebe.svg";
 // import search from "../../assets/images/trading/explorer.9dceb5de.svg";
 import chain from "../../assets/images/trading/analytic.dab44a04.svg";
@@ -147,7 +147,7 @@ function Expertise() {
               </button>
               {isShown && (
                 <ExpertsItems>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={trading} alt="engineer" width="40px" />
@@ -155,7 +155,7 @@ function Expertise() {
                       <ExpertName>CryptoCurrency Trading</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={processing} alt="engineer" width="40px" />
@@ -163,7 +163,7 @@ function Expertise() {
                       <ExpertName>CryptoCurrency Processing</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -175,7 +175,7 @@ function Expertise() {
                       <ExpertName>BlockChain Explorer</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={smart} alt="engineer" width="40px" />
@@ -183,7 +183,7 @@ function Expertise() {
                       <ExpertName>Smart-Contract Development</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={mining} alt="engineer" width="40px" />
@@ -191,7 +191,7 @@ function Expertise() {
                       <ExpertName>Mining pool</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={wallet} alt="engineer" width="40px" />
@@ -199,7 +199,7 @@ function Expertise() {
                       <ExpertName>Wallets</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={ecommerce} alt="engineer" width="40px" />
@@ -207,7 +207,7 @@ function Expertise() {
                       <ExpertName>E-commerce Crypto</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={chainanalysis} alt="engineer" width="40px" />
@@ -215,7 +215,7 @@ function Expertise() {
                       <ExpertName>Chain Analysis</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={fiatpayments} alt="engineer" width="40px" />
@@ -223,7 +223,7 @@ function Expertise() {
                       <ExpertName>Fiat Payment On-Off Ramps</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -235,7 +235,7 @@ function Expertise() {
                       <ExpertName>Bespoke Blockchain Platform</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -247,7 +247,7 @@ function Expertise() {
                       <ExpertName>Bots Development</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -259,7 +259,7 @@ function Expertise() {
                       <ExpertName>Nodes Development</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -271,7 +271,7 @@ function Expertise() {
                       <ExpertName>NFT Marketplaces</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -283,7 +283,7 @@ function Expertise() {
                       <ExpertName>Side-Chain Development</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={Defisolutions} alt="engineer" width="40px" />
@@ -337,7 +337,7 @@ function Expertise() {
               </button>
               {isShownthree && (
                 <ExpertsItems>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -349,7 +349,7 @@ function Expertise() {
                       <ExpertName>High-Frequency Trading </ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={chain} alt="engineer" width="40px" />
@@ -357,7 +357,7 @@ function Expertise() {
                       <ExpertName>Decentralized Exchange Trading</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={custom} alt="engineer" width="40px" />
@@ -365,7 +365,7 @@ function Expertise() {
                       <ExpertName>Centralized Exchange Trading</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={Arbitrage} alt="engineer" width="40px" />
@@ -373,7 +373,7 @@ function Expertise() {
                       <ExpertName>Arbitrage</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -385,7 +385,7 @@ function Expertise() {
                       <ExpertName>Trading Automation</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -397,7 +397,7 @@ function Expertise() {
                       <ExpertName>Portfolio Management</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -409,7 +409,7 @@ function Expertise() {
                       <ExpertName>Data collection & organization</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -421,7 +421,7 @@ function Expertise() {
                       <ExpertName>Automating trading algorithms</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -433,7 +433,7 @@ function Expertise() {
                       <ExpertName>Large-scale backtesting</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -445,7 +445,7 @@ function Expertise() {
                       <ExpertName>Quantitative trading</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={multitasking} alt="engineer" width="40px" />
@@ -494,7 +494,7 @@ function Expertise() {
               </button>
               {isShowntwo && (
                 <ExpertsItems>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={flat} alt="engineer" width="40px" />
@@ -502,7 +502,7 @@ function Expertise() {
                       <ExpertName>Fiat Processing</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={card} alt="engineer" width="40px" />
@@ -510,7 +510,7 @@ function Expertise() {
                       <ExpertName>Card Processing</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={IdentityKYC} alt="engineer" width="40px" />
@@ -518,7 +518,7 @@ function Expertise() {
                       <ExpertName>Identity (KYC) </ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -530,7 +530,7 @@ function Expertise() {
                       <ExpertName>P2P Transactions</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={Creditscoring} alt="engineer" width="40px" />
@@ -538,7 +538,7 @@ function Expertise() {
                       <ExpertName>Credit Scoring</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={Marketplaces} alt="engineer" width="40px" />
@@ -546,7 +546,7 @@ function Expertise() {
                       <ExpertName>MarketPlaces</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={wallet} alt="engineer" width="40px" />
@@ -554,7 +554,7 @@ function Expertise() {
                       <ExpertName>Digital/Mobile Wallet</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={psd} alt="engineer" width="40px" />
@@ -562,7 +562,7 @@ function Expertise() {
                       <ExpertName>PSD2</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={integration} alt="engineer" width="40px" />
@@ -598,7 +598,7 @@ function Expertise() {
               </button>
               {isShownfour && (
                 <ExpertsItems>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={Socialmedia} alt="engineer" width="40px" />
@@ -606,7 +606,7 @@ function Expertise() {
                       <ExpertName>Social Media</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={deeplearning} alt="engineer" width="40px" />
@@ -614,7 +614,7 @@ function Expertise() {
                       <ExpertName>Deep Learning</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
@@ -626,7 +626,7 @@ function Expertise() {
                       <ExpertName>Artificial Intelligence</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img src={custom} alt="engineer" width="40px" />
@@ -634,7 +634,7 @@ function Expertise() {
                       <ExpertName>Metaverse</ExpertName>
                     </Expertione>
                   </Fade>
-                  <Fade up>
+                  <Fade direction="up">
                     <Expertione>
                       <ExpertLogo>
                         <img
