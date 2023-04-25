@@ -6,7 +6,6 @@ import Betty from "../../assets/images/carousel/Betty.JPG";
 import Dennoh from "../../assets/images/carousel/Dennoh.jpg";
 import George from "../../assets/images/carousel/george.JPG";
 import Omambia from "../../assets/images/carousel/omambia.jpg";
-import vincent from "../../assets/images/carousel/vincent.jpg";
 import Enock from "../../assets/images/carousel/Enock.jpg";
 import Dennis from "../../assets/images/carousel/Dennis.JPG";
 import Henry from "../../assets/images/carousel/Henry.JPG";
@@ -103,18 +102,6 @@ function CarouselTeam() {
             <Styled.CarouselText>
               Javascript, Typescript, Python, Golang, Solidity <span>&</span>{" "}
               Flutter.
-            </Styled.CarouselText>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Styled.CarouselImage>
-              <img src={vincent} alt="Styled.carousel" />
-            </Styled.CarouselImage>
-            <Styled.CarouselHeader>
-              VINCENT.<span>DevOps4Life🕸️</span>
-            </Styled.CarouselHeader>
-            <Styled.CarouselText>
-              Python, JavaScript, solidity, web 3, C <span>&</span> C++.
             </Styled.CarouselText>
           </SwiperSlide>
 
