@@ -18,7 +18,7 @@ import Contacts from "./components/Contacts/Contacts";
 import techstack from "./pages/techstack";
 import whatwedo from "./pages/whatwedo";
 import signin from "./pages/signin";
-import Onbording from "./pages/Onbord";
+// import Onbording from "./pages/Onbord";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         <Route path="/techstack" exact component={techstack} />
         <Route path="/whatwedo" exact component={whatwedo} />
         <Route path="/signin" exact component={signin} />
-        <Route path="/onboarding" exact component={Onbording} />
+        {/* <Route path="/onboarding" exact component={Onbording} /> */}
       </Switch>
       <Services />
       <Footer />
