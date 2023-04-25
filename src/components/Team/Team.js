@@ -16,8 +16,7 @@ import {
   TeamAdviser,
 } from "./TeamElements";
 // import data from "./data.json";
-import Slide from "react-reveal/Slide"; // Importing Zoom effect
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import team from "../../assets/images/teams.svg";
 import yeng from "../../assets/images/femals_dev.jpg";
 import jamaa from "../../assets/images/male_dev.jpg";
